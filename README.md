@@ -23,7 +23,7 @@ Verbose also supports declaring your own style in a simple way:
 	}
 ```
 
-To print print, just call `Println` on a style.
+To print a message to the log, just call `Println` on a style.
 
 ```go
 verbose.Success.Println("Yay, you just printed your first messages")
